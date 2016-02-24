@@ -42,7 +42,7 @@ public class HeronApplication extends Application {
         ApplicationContext applicationContext = Main.getApplicationContext();
 
         try {
-            final MainWindowView mainWindowView = new MainWindowView(() -> applicationContext.getBean(UIController.class));
+            final MainWindowView mainWindowView = new MainWindowView(applicationContext::getBean);
 
             Scene scene = new Scene(mainWindowView);
             primaryStage.setScene(scene);
@@ -57,11 +57,11 @@ public class HeronApplication extends Application {
 
 public class MainWindowView extends VBox implements DelegateAware<UIController> {
 
-public MainWindowView(Callable<?> delegateFactory) {
+public MainWindowView(Function<Class, ?> delegateFactory) {
 ...
         try (InputStream fxmlStream = MainWindowView.class.getResourceAsStream("/HeronMainWindow.fxml")) {
             this.delegateFactory = delegateFactory;
-            this.delegate = (UIController) delegateFactory.call();
+            this.delegate = (UIController) delegateFactory.apply(UIController.class);
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setRoot(this);
             fxmlLoader.setController(this);
