@@ -3,7 +3,7 @@ layout: post
 title: Thoughts on JavaFX & Spring
 excerpt: "Working with JavaFX is fun but can become a bit tricky when Spring is involved"
 categories: Development
-comments: false
+comments: true
 ---
 
 It's been a while since I last touched JavaFX, but in general I'm quite happy with it. Sure, the layout engines are not as delicious as Apple's [Auto Layout](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/index.html) but there are a lot of pretty and functional widget libraries such as [JFxtras](http://jfxtras.org/) as well as [ControlsFx](http://fxexperience.com/controlsfx/). Just when I begin to doubt whether all UIs will eventually become Js SPAs I bump into awesome stuff like [Graphing in 3D with Dex and Vis.js](https://dexvis.wordpress.com/2016/02/21/graphing-in-3d-with-dex-and-vis-js/) and pause.
