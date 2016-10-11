@@ -36,6 +36,7 @@ owner:
   job: "Java Developer"
   bio: "I'm a software developer, mostly proficient in Java but weaning off OO to properly practice software design (that would be Functional Programming)"
   email: edoardo . causarano@gmail.com
+  disqus-shortname: causarano
   google:
     plus: #username
     analytics: UA-73129001-1
