@@ -1,5 +1,6 @@
-_site
-.sass-cache
-#_config.yml
-_drafts
-.idea
+.idea/
+_drafts/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
