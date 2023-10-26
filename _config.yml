@@ -4,8 +4,8 @@
 ####################################
 #
 title:       "A blog of Edoardo Causarano"
-description: "I'm a software developer, mostly proficient in Java but weaning off OO to properly practice software design (that would be Functional Programming)"
-url:         # the base hostname & protocol for your site
+description: "Notes and humblebrags"
+url:        http://www.causarano.eu 
 
 #
 ###################################
@@ -33,10 +33,10 @@ kramdown:
 owner:
   name: Edoardo
   avatar:  IMG_3873.png
-  job: "Java Developer"
-  bio: "I'm a software developer, mostly proficient in Java but weaning off OO to properly practice software design (that would be Functional Programming)"
+  job: "Engineer and Software Developer"
+  bio: "Somewhat polyglot programmer I tend to steer toward Functional Programming designs" 
   email: edoardo . causarano@gmail.com
-  disqus-shortname: causarano
+  # disqus-shortname: causarano
   google:
     plus: #username
     analytics: UA-73129001-1
